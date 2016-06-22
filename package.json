@@ -1,0 +1,17 @@
+{
+  "name": "wifisetup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "CLOSED",
+  "dependencies": {
+    "fs-extra": "^0.30.0",
+    "keypress": "^0.2.1",
+    "wireless-tools": "^0.15.0",
+    "nascent-datasync": "git+https://bitbucket.org/nascentobjects/nascent-datasync.git"
+  }
+}

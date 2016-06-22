@@ -1,0 +1,16 @@
+ctrl_interface=/var/run/wpa_supplicant
+ctrl_interface_group=0
+driver_param=use_p2p_group_interface=1p2p_device=1
+update_config=1
+device_name=Edison
+manufacturer=Intel
+model_name=Edison
+config_methods=virtual_push_button virtual_display push_button keypad
+
+network={
+	ssid="squishnet"
+	psk="s1lv3repoxy"
+	key_mgmt=WPA-PSK
+	eap=TTLS PEAP TLS
+    priority=5
+}
