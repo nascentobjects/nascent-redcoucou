@@ -1,0 +1,15 @@
+[Unit]
+Description=Nascent Wifi Setup
+
+[Service]
+WorkingDirectory=/home/root/latest
+Environment="NODE_PATH=/usr/lib/node_modules"
+Environment="NODE_ENV=production"
+Environment="HOME=/usr/lib/node_modules/nascent-wifisetup"
+ExecStartPre=/bin/sh -c "sleep 20"
+ExecStart=/bin/sh -c "/usr/lib/node_modules/nascent-wifisetup/run.sh"
+Restart=always
+RestartSec=10s
+
+[Install]
+WantedBy=multi-user.target
