@@ -1,6 +1,12 @@
 ## Installation
 Copy the contents of this repo to **/usr/lib/node_modules/nascent-wifisetup** on your main module.
 
+To install dependencies:
+```
+cd /usr/lib/node_modules/nascent-wifisetup
+npm install
+```
+
 SSH into main module and do the following:
 ```
 cp nascent-wifisetup.service /lib/systemd/system
