@@ -12,6 +12,6 @@
     "fs-extra": "^0.30.0",
     "keypress": "^0.2.1",
     "wireless-tools": "^0.15.0",
-    "nascent-datasync": "git+https://bitbucket.org/nascentobjects/nascent-datasync.git"
+    "nascent-datasync": "git+https://github.com/nascentobjects/nascent-datasync.git"
   }
 }
